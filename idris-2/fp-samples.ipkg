@@ -1,6 +1,7 @@
 package fp_samples
 
-modules = FunctionsAndRelations, Decidability, Category, List
+modules = FunctionsAndRelations, Decidability, Category, List,
+    SimplyTypedLambdaCalculus
 
 depends = contrib
 
