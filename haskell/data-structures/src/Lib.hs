@@ -1,6 +1,5 @@
-module Lib
-    ( someFunc
-    ) where
+{-# LANGUAGE GADTs #-}
 
-someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+module Lib
+    (
+    ) where
