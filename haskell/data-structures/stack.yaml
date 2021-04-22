@@ -46,7 +46,7 @@ explicit-setup-deps:
 #
 # extra-deps: []
 extra-deps:
-  - liquid-fixpoint-0.2.3.1
+  - liquid-fixpoint-0.8.10.2
   - text-format-0.3.2
   - Diff-0.3.4
   - liquidhaskell-0.8.10.2
