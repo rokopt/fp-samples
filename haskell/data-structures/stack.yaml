@@ -52,6 +52,7 @@ extra-deps:
   - liquidhaskell-0.8.10.2
   - liquid-base-4.14.0.0
   - liquid-ghc-prim-0.6.1
+  - liquid-containers-0.6.2.1
   - git: https://github.com/ucsd-progsys/lh-plugin-demo
     commit: 4cd9503e179aee010d18ee9c5cdeb1051755d6f9
 
