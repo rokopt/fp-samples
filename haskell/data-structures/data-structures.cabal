@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 0887130044acfed629d83a6c037cda58cf6201f393a8b2259757e42a621a034d
+-- hash: f7067a7d61856f40fb03da5a1c391998106e84caa9d7e4695232f0a762db6244
 
 name:           data-structures
 version:        0.1.0.0
@@ -27,6 +27,7 @@ source-repository head
 
 library
   exposed-modules:
+      DependentTypes
       Interpreter
       Lib
   other-modules:
