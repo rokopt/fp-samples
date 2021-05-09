@@ -491,6 +491,10 @@ removeAndUniquify deq toRemove (x :: l) =
     Yes _ => removeAndUniquify deq toRemove l
     No _ => x :: removeAndUniquify deq (x :: toRemove) l
 
+public export
+uniqueElements : {a : Type} -> DecEqPred a -> List a -> List a
+uniqueElements deq l = removeAndUniquify deq [] l
+
 FirstElementsUnique : {a, b : Type} -> List (a, b) -> Type
 FirstElementsUnique l = ElementsUnique (map fst l)
 
